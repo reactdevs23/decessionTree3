@@ -1,0 +1,250 @@
+.headingContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+}
+.subHeading {
+  color: var(--color);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 1.6px;
+}
+.heading {
+  color: var(--color);
+  font-family: var(--headingFontFamily);
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.mainWrapper {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  align-items: flex-end;
+  width: 100%;
+  max-width: 2200px;
+  margin: 0 100px;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 104px;
+  width: auto;
+
+  margin-right: 450px;
+}
+
+.box {
+  width: 230px;
+  height: 93px;
+  padding: 12px;
+  background: var(--bg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  position: relative;
+}
+
+.label {
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 22px;
+  color: var(--color);
+  font-weight: 500;
+  text-align: center;
+}
+.step1 {
+  /* margin-top: 19px; */
+  margin-top: 5px;
+}
+.condition {
+  position: relative;
+}
+.conditionLabel {
+  width: 190px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.yesRight {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translate(calc(100% + 2px), 0%);
+}
+.noLeft {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(calc(-100%), 0%);
+}
+.longNoLeft {
+  position: absolute;
+  top: 41%;
+  left: 0;
+  transform: translate(calc(-100% - 2px), 0%);
+}
+.step2Container {
+  display: flex;
+  align-items: center;
+  gap: 275px;
+  margin-top: -52px;
+  margin-bottom: 5px;
+}
+.step2a {
+  transform: translateX(60px);
+  margin-top: -62px;
+}
+.step3Container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  gap: 337px;
+  transform: translate(50px, -10px);
+  /* margin-top: 20px; */
+}
+.step3abContainer,
+.step3bcContainer {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  position: relative;
+}
+.step3abContainer {
+  gap: 70px;
+  transform: translateY(10px);
+}
+.step3bcContainer {
+  transform: translateX(38px);
+}
+
+.leftRight,
+.longYes {
+  position: absolute;
+  left: 50%;
+  top: 0%;
+  transform: translate(-50%, calc(-100% - 3px));
+}
+.yes {
+  position: absolute;
+
+  width: 47px;
+  height: 80px;
+  left: 50%;
+  top: 0%;
+  transform: translate(-50%, calc(-100% - 3px));
+}
+.leftRight {
+  height: 230px;
+  width: 100%;
+  top: 35%;
+  left: 48%;
+}
+.noRight {
+  position: absolute;
+  top: 41%;
+  right: 0;
+  transform: translate(calc(100% + 2px), 0%);
+}
+
+.step3c {
+  margin-top: 5px;
+  transform: translate(125px, 0px);
+}
+
+.step4Container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 30px;
+  width: 100%;
+  margin-left: auto;
+  transform: translate(384px, -57px);
+}
+.step4bc {
+  display: flex;
+
+  align-items: center;
+  gap: 30px;
+  transform: translate(88px, -15px);
+}
+.step5Container {
+  display: flex;
+  align-items: center;
+  gap: 337px;
+  transform: translateX(120px);
+  margin-right: auto;
+  margin-top: -75px;
+}
+.step5b {
+}
+.step6Container {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  transform: translateX(120px);
+  margin-top: -5px;
+  width: 100%;
+  margin-right: auto;
+}
+.step6abContainer {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  position: relative;
+}
+.step6cdContainer {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-left: 50px;
+  position: relative;
+}
+
+.rightMiddle {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translate(calc(-5%), calc(100% + 5px));
+}
+.step6Container .rightMiddle {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translate(calc(-45%), calc(-100% - 5px));
+}
+.allData {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.infoContainer {
+  padding: 28px;
+  border-radius: 10px;
+  background: var(--bg);
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 353px;
+}
+.info,
+.title {
+  color: var(--color);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+}
+.title {
+  font-weight: 600;
+}
