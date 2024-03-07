@@ -210,6 +210,10 @@
   margin-left: 50px;
   position: relative;
 }
+.step6b,
+.step6d {
+  transform: translateX(25px);
+}
 
 .rightMiddle {
   position: absolute;
